@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
+cd site 
+
 # This scripts builds a web version of the application and 
 # updates the `docs` directory with the result.
 flutter channel stable
 
-# Generate source screens
-# flutter pub run build_runner build --delete-conflicting-outputs
-source ${BASH_SOURCE%/*}/generate-source-screens
-
 # Build the web version
 flutter build web
 
+cd -
+
 # Copy into the Github pages location
-cp -r build/web/* ./docs
+cp -r site/build/web/* ./docs
 
 # Git add and commit
 git add .
