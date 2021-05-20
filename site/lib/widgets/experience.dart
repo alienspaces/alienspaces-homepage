@@ -49,7 +49,7 @@ class ExperienceWidget extends StatelessWidget {
   List<Widget> _buildContent(BuildContext context) {
     List<Widget> widgetList = [];
     var experienceList = getExperienceList();
-    experienceList.forEach((experience) {
+    experienceList.reversed.forEach((experience) {
       widgetList.add(
         Container(
           child: Column(
