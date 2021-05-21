@@ -31,6 +31,9 @@ dependencies:
   # A package to include fonts from fonts.google.com in your Flutter app.
   google_fonts: 2.0.0
 
+  # Flutter plugin for launching a URL. Supports web, phone, SMS, and email schemes.
+  url_launcher: 6.0.4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

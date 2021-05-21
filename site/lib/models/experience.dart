@@ -1,3 +1,5 @@
+import 'package:site/models/technology.dart';
+
 class Experience {
   final String project;
   final String projectYearStart;
@@ -5,7 +7,8 @@ class Experience {
   final List<String> projectDescription;
   final String position;
   final List<String> positionDescription;
-  final List<String> technology;
+  final List<Technology> technology;
+
   Experience({
     required this.projectYearStart,
     required this.projectYearEnd,
@@ -30,7 +33,14 @@ List<Experience> getExperienceList() {
       positionDescription: [
         'As the sole engineer, I was responsible for the entire software architecture and implementation.',
       ],
-      technology: ['Flutter', 'AWS', 'Kubernetes', 'Postgres10', 'Go', 'GitlabCI'],
+      technology: [
+        technologyFlutter,
+        technologyAWS,
+        technologyKubernetes,
+        technologyPostgres,
+        technologyGitlab,
+        technologyGo,
+      ],
     ),
     Experience(
       projectYearStart: '2020',
@@ -43,7 +53,16 @@ List<Experience> getExperienceList() {
       positionDescription: [
         'As the most experienced engineer in a team of two, I was responsible for the entire software architecture and was the major contributor of code during the project implementation.',
       ],
-      technology: ['Quasar Framework/Vuejs', 'AWS', 'Kubernetes', 'Postgres10', 'Go', 'GitlabCI'],
+      technology: [
+        technologyQuasar,
+        technologyVueJS,
+        technologyAWS,
+        technologyDocker,
+        technologyKubernetes,
+        technologyPostgres,
+        technologyGitlab,
+        technologyGo,
+      ],
     ),
     Experience(
       projectYearStart: '2013',
@@ -57,7 +76,16 @@ List<Experience> getExperienceList() {
         'As the delivery lead in a team practicing Agile project management, I was responsible for supporting a highly performing engineering team, running daily team stand ups and scheduled grooming, while working with product management on requirements and planning.',
         'As one of the most experienced engineers on the team I was also responsible for the software architecture and was a major contributor of code during the project implementation.',
       ],
-      technology: ['AWS', 'Kubernetes', 'Postgres10', 'Go', 'Quasar Framework/Vuejs', 'GitlabCI'],
+      technology: [
+        technologyQuasar,
+        technologyVueJS,
+        technologyAWS,
+        technologyDocker,
+        technologyKubernetes,
+        technologyPostgres,
+        technologyGitlab,
+        technologyGo,
+      ],
     ),
     Experience(
       projectYearStart: '2012',
@@ -70,7 +98,15 @@ List<Experience> getExperienceList() {
       positionDescription: [
         'As an engineering team member in a team practicing Agile project management, I was responsible for attending and contributing to Agile ceremonies, taking on engineering tasks and delivering high quality solutions.',
       ],
-      technology: ['Ubuntu', 'Ruby on Rails', 'MySQL', 'Docker', 'Kubernetes', 'Gitlab CI'],
+      technology: [
+        technologyUbuntu,
+        technologyROR,
+        technologyMySQL,
+        technologyDocker,
+        technologyAWS,
+        technologyKubernetes,
+        technologyGitlab,
+      ],
     ),
     Experience(
       projectYearStart: '2004',
@@ -83,7 +119,12 @@ List<Experience> getExperienceList() {
       positionDescription: [
         '',
       ],
-      technology: ['Redhat Linux', 'Oracle 10', 'Perl/mod_perl'],
+      technology: [
+        technologyRedhatLinux,
+        technologyOracle10,
+        technologyPerl,
+        technologyModPerl,
+      ],
     ),
     Experience(
       projectYearStart: '2000',
@@ -96,7 +137,11 @@ List<Experience> getExperienceList() {
       positionDescription: [
         'In a small team of engineers, I was responsible for the software design and was a major contributor of code during the project implementation',
       ],
-      technology: ['Redhat Linux', 'Oracle 8', 'Perl/CGI'],
+      technology: [
+        technologyRedhatLinux,
+        technologyOracle8,
+        technologyPerl,
+      ],
     ),
     Experience(
       projectYearStart: '1997',
@@ -111,7 +156,11 @@ List<Experience> getExperienceList() {
         'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services.',
         'The online music store provided artist and album search capabilties, categorised album listings, order and checkout capabilities.',
       ],
-      technology: ['SCO Linux', 'Oracle 6', 'Perl/CGI'],
+      technology: [
+        technologyRedhatLinux,
+        technologyOracle6,
+        technologyPerl,
+      ],
     ),
   ];
   return experience;
