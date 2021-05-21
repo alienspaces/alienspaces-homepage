@@ -55,6 +55,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/fonts/
+    - assets/fonts/CustomIcons.ttf
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -82,3 +83,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+   - family:  CustomIcons
+     fonts:
+      - asset: assets/fonts/CustomIcons.ttf  
+
