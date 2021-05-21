@@ -41,7 +41,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'As the most experienced engineer in a team of two, I was responsible for the entire software architecture and was the major contributor of code to the projects implementation.',
+        'As the most experienced engineer in a team of two, I was responsible for the entire software architecture and was the major contributor of code during the project implementation.',
       ],
       technology: ['Quasar Framework/Vuejs', 'AWS', 'Kubernetes', 'Postgres10', 'Go', 'GitlabCI'],
     ),
@@ -54,8 +54,8 @@ List<Experience> getExperienceList() {
         'A merchant payment platform for processing authorised transactions submitted from a variety of internal and external clients.',
       ],
       positionDescription: [
-        'As the delivery lead I was responsible for supporting a highly performing engineering team while working with product management on requirements and planning.',
-        'As one of the most experienced engineers on the team I was also responsible for the software architecture and was a major contributor of code to the projects implementation.',
+        'As the delivery lead in a team practicing Agile project management, I was responsible for supporting a highly performing engineering team, running daily team stand ups and scheduled grooming, while working with product management on requirements and planning.',
+        'As one of the most experienced engineers on the team I was also responsible for the software architecture and was a major contributor of code during the project implementation.',
       ],
       technology: ['AWS', 'Kubernetes', 'Postgres10', 'Go', 'Quasar Framework/Vuejs', 'GitlabCI'],
     ),
@@ -64,11 +64,11 @@ List<Experience> getExperienceList() {
       projectYearEnd: '2013',
       project: 'Online Marketplace',
       projectDescription: [
-        '',
+        'A multi seller marketplace for the disability sector.',
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        '',
+        'As an engineering team member in a team practicing Agile project management, I was responsible for attending and contributing to Agile ceremonies, taking on engineering tasks and delivering high quality solutions.',
       ],
       technology: ['Ubuntu', 'Ruby on Rails', 'MySQL', 'Docker', 'Kubernetes', 'Gitlab CI'],
     ),
@@ -77,9 +77,9 @@ List<Experience> getExperienceList() {
       projectYearEnd: '2012',
       project: 'Enterprise Framework',
       projectDescription: [
-        '',
+        'An enterprise application framework that provided a complete solution for engineering teams to build web and processing applications for the financial industry.',
       ],
-      position: 'Engineer III',
+      position: 'Engineer III/Architect I',
       positionDescription: [
         '',
       ],
@@ -90,11 +90,11 @@ List<Experience> getExperienceList() {
       projectYearEnd: '2004',
       project: 'Online Client Portal',
       projectDescription: [
-        '',
+        'An online client portal for a financial payments processing and billing system.',
       ],
       position: 'Engineer II',
       positionDescription: [
-        '',
+        'In a small team of engineers, I was responsible for the software design and was a major contributor of code during the project implementation',
       ],
       technology: ['Redhat Linux', 'Oracle 8', 'Perl/CGI'],
     ),
