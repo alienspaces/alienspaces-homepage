@@ -18,13 +18,13 @@ const RESOURCES = {
 "assets/assets/fonts/Lato-Italic.ttf": "7582e823ef0d702969ea0cce9afb326d",
 "assets/assets/fonts/Lato-Thin.ttf": "9a77fbaa85fa42b73e3b96399daf49c5",
 "assets/AssetManifest.json": "042e851527674a9562b477d73d51b6ff",
-"assets/NOTICES": "40b50c69abb87c07b8da5c872d16a50b",
+"assets/NOTICES": "001074814df1b0eb41232531b76ec316",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"main.dart.js": "eb8246700521dcccef86b84fc2e0c23d",
+"main.dart.js": "93afb3b5e03d76746363f51b829a26a7",
 "manifest.json": "ac0019beef8477cbf457a70d981f1622",
-"index.html": "bf653b65db4b2d100d7d763dd7fd5bfc",
-"/": "bf653b65db4b2d100d7d763dd7fd5bfc",
+"index.html": "f59f7af6df3403ad199bea949b861265",
+"/": "f59f7af6df3403ad199bea949b861265",
 "version.json": "cecb292e181a64573f5cf756104f1d7f"
 };
 
