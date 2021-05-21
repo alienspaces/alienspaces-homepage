@@ -31,7 +31,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'As the sole engineer, I was responsible for the software architecture, design and implementation.',
+        'As the sole engineer, I was entirely responsible for the software architecture, design and implementation.',
       ],
       technology: [
         technologyFlutter,
@@ -51,7 +51,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'As an experienced engineer in a team of two, I was responsible for the software architecture, design and implementation.',
+        'As an experienced engineer in a team of two, I was mainly responsible for the software architecture, design and implementation.',
       ],
       technology: [
         technologyQuasar,
@@ -96,7 +96,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        'As a less experienced engineer in the chosen technology stack, I was partly responsible for the software design and implementation.',
+        'As a less experienced engineer in the chosen technology stack, I shared responsibility for the software design and implementation.',
       ],
       technology: [
         technologyUbuntu,
@@ -135,7 +135,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer II',
       positionDescription: [
-        'As an experienced engineer, I was responsible for the software design and implementation',
+        'As an experienced engineer, I was responsible for the software design and implementation.',
       ],
       technology: [
         technologyRedhatLinux,
@@ -144,8 +144,25 @@ List<Experience> getExperienceList() {
       ],
     ),
     Experience(
-      projectYearStart: '1997',
+      projectYearStart: '1998',
       projectYearEnd: '2000',
+      project: 'Billing and Payment Processing',
+      projectDescription: [
+        'A white labelled billing and and payment processing system.',
+      ],
+      position: 'Engineer II',
+      positionDescription: [
+        'As an engineer, I shared responsibility for the software design and implementation.',
+      ],
+      technology: [
+        technologySCOLinux,
+        technologyOracle6,
+        technologyProC,
+      ],
+    ),
+    Experience(
+      projectYearStart: '1997',
+      projectYearEnd: '1998',
       project: 'Online Music Store',
       projectDescription: [
         'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services.',
@@ -153,10 +170,10 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer I',
       positionDescription: [
-        'As an engineer, I was partly responsible for the software design and implementation',
+        'As an engineer, I shared responsibility for the software design and implementation.',
       ],
       technology: [
-        technologyRedhatLinux,
+        technologySCOLinux,
         technologyOracle6,
         technologyPerl,
       ],

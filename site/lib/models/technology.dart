@@ -87,6 +87,12 @@ Technology technologyPostgres = Technology(
   url: 'https://www.postgresql.org/',
 );
 
+Technology technologyProC = Technology(
+  name: 'Pro*C',
+  imageName: 'proc-small.png',
+  url: 'https://en.wikipedia.org/wiki/Pro*C',
+);
+
 Technology technologyRedhatLinux = Technology(
   name: 'Redhat Linux',
   imageName: 'redhat-small.png',
@@ -103,6 +109,12 @@ Technology technologyQuasar = Technology(
   name: 'Quasar',
   imageName: 'quasar-small.png',
   url: 'https://quasar.dev/',
+);
+
+Technology technologySCOLinux = Technology(
+  name: 'SCO Unix',
+  imageName: 'sco-small.png',
+  url: 'https://en.wikipedia.org/wiki/OpenServer#SCO_UNIX/SCO_Open_Desktop',
 );
 
 Technology technologyUbuntu = Technology(
