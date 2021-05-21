@@ -23,8 +23,8 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "main.dart.js": "24105f7f1086ba0d5b99c3ec27e72598",
 "manifest.json": "ac0019beef8477cbf457a70d981f1622",
-"index.html": "db97c8c1f7413fedd977d7b68cb5344e",
-"/": "db97c8c1f7413fedd977d7b68cb5344e",
+"index.html": "f06f944f20f093fd3d1b7ae5c13ea67e",
+"/": "f06f944f20f093fd3d1b7ae5c13ea67e",
 "version.json": "cecb292e181a64573f5cf756104f1d7f"
 };
 
