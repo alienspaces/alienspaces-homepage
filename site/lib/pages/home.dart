@@ -9,11 +9,10 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Container(
           child: Text(
-            'Alienspaces - Principal Engineer / Architect',
-            style: Theme.of(context)
-                .textTheme
-                .headline4
-                ?.copyWith(color: Theme.of(context).colorScheme.onSecondary),
+            'Alienspaces',
+            style: Theme.of(context).textTheme.headline4?.copyWith(
+                  color: Theme.of(context).colorScheme.onSecondary,
+                ),
           ),
         ),
       ),
