@@ -31,7 +31,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'As the sole engineer, I was responsible for the entire software architecture and implementation.',
+        'As the sole engineer, I was responsible for the software architecture, design and implementation.',
       ],
       technology: [
         technologyFlutter,
@@ -51,7 +51,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'As the most experienced engineer in a team of two, I was responsible for the entire software architecture and was the major contributor of code during the project implementation.',
+        'As an experienced engineer in a team of two, I was responsible for the software architecture, design and implementation.',
       ],
       technology: [
         technologyQuasar,
@@ -74,7 +74,7 @@ List<Experience> getExperienceList() {
       ],
       positionDescription: [
         'As the delivery lead in a team practicing Agile project management, I was responsible for supporting a highly performing engineering team, running daily team stand ups and scheduled grooming, while working with product management on requirements and planning.',
-        'As one of the most experienced engineers on the team I was also responsible for the software architecture and was a major contributor of code during the project implementation.',
+        'As an experienced engineer, I was responsible for the software architecture, design and implementation.',
       ],
       technology: [
         technologyQuasar,
@@ -96,7 +96,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        'As an engineering team member in a team practicing Agile project management, I was responsible for attending and contributing to Agile ceremonies, taking on engineering tasks and delivering high quality solutions.',
+        'As a less experienced engineer in the chosen technology stack, I was partly responsible for the software design and implementation.',
       ],
       technology: [
         technologyUbuntu,
@@ -117,7 +117,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        '',
+        'As an experienced engineer, I was responsible for the software architecture, design and implementation.',
       ],
       technology: [
         technologyRedhatLinux,
@@ -135,7 +135,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer II',
       positionDescription: [
-        'In a small team of engineers, I was responsible for the software design and was a major contributor of code during the project implementation',
+        'As an experienced engineer, I was responsible for the software design and implementation',
       ],
       technology: [
         technologyRedhatLinux,
@@ -153,8 +153,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer I',
       positionDescription: [
-        'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services.',
-        'The online music store provided artist and album search capabilties, categorised album listings, order and checkout capabilities.',
+        'As an engineer, I was partly responsible for the software design and implementation',
       ],
       technology: [
         technologyRedhatLinux,
