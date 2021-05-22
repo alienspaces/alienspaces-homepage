@@ -4,7 +4,9 @@ import 'package:site/models/experience.dart';
 import 'package:site/widgets/experience_technology.dart';
 import 'package:site/widgets/experience_project_years.dart';
 import 'package:site/widgets/experience_project_description.dart';
+import 'package:site/widgets/experience_project_features.dart';
 import 'package:site/widgets/experience_position_description.dart';
+import 'package:site/widgets/experience_position_accomplishments.dart';
 
 class ExperienceWidget extends StatelessWidget {
   // Build content
@@ -48,12 +50,28 @@ class ExperienceWidget extends StatelessWidget {
                   description: experience.projectDescription,
                 ),
               ),
+              // Project Features
+              Container(
+                alignment: Alignment.centerLeft,
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+                child: ExperienceProjectFeaturesWidget(
+                  features: experience.projectFeatures,
+                ),
+              ),
               // Position Description
               Container(
                 alignment: Alignment.centerLeft,
                 padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 child: ExperiencePositionDescriptionWidget(
                   description: experience.positionDescription,
+                ),
+              ),
+              // Position Accomplishments
+              Container(
+                alignment: Alignment.centerLeft,
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+                child: ExperiencePositionAccomplishmentsWidget(
+                  accomplishments: experience.positionAccomplishments,
                 ),
               ),
               // Technology
