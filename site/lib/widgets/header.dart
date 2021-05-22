@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:site/icons.dart';
+import 'package:site/models/social.dart';
 
 class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
@@ -9,6 +9,23 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
 
   void _launchURL(String url) async =>
       await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
+
+  List<Widget> _buildContent(BuildContext context) {
+    var socialList = getSocialList();
+    List<Widget> widgetList = [];
+    socialList.forEach((social) {
+      widgetList.add(
+        IconButton(
+          icon: Icon(social.icon),
+          visualDensity: VisualDensity.compact,
+          iconSize: 24,
+          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
+          onPressed: () => _launchURL(social.url),
+        ),
+      );
+    });
+    return widgetList;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,36 +57,7 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
         ),
       ),
       actionsIconTheme: IconThemeData(),
-      actions: <Widget>[
-        IconButton(
-          icon: Icon(CustomIcons.github_square),
-          visualDensity: VisualDensity.compact,
-          iconSize: 24,
-          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
-          onPressed: () => _launchURL('https://github.com/alienspaces'),
-        ),
-        IconButton(
-          icon: Icon(CustomIcons.gitlab),
-          visualDensity: VisualDensity.compact,
-          iconSize: 24,
-          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
-          onPressed: () => _launchURL('https://gitlab.com/alienspaces'),
-        ),
-        IconButton(
-          icon: Icon(CustomIcons.twitter_square),
-          visualDensity: VisualDensity.compact,
-          iconSize: 24,
-          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
-          onPressed: () => _launchURL('https://twitter.com/Alien_Spaces'),
-        ),
-        IconButton(
-          icon: Icon(CustomIcons.linkedin),
-          visualDensity: VisualDensity.compact,
-          iconSize: 24,
-          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
-          onPressed: () => _launchURL('https://www.linkedin.com/in/alienspaces/'),
-        )
-      ],
+      actions: _buildContent(context),
     );
   }
 }
