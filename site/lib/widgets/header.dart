@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'package:site/icons.dart';
 
 class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => new Size.fromHeight(60);
+
+  void _launchURL(String url) async =>
+      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
 
   @override
   Widget build(BuildContext context) {
@@ -19,17 +23,20 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
       ),
       actions: <Widget>[
         IconButton(
-          padding: EdgeInsets.only(right: 10),
+          icon: Icon(CustomIcons.gitlab),
+          onPressed: () => _launchURL('https://gitlab.com/alienspaces'),
+        ),
+        IconButton(
           icon: Icon(CustomIcons.mark_github),
-          onPressed: () => {},
+          onPressed: () => _launchURL('https://github.com/alienspaces'),
         ),
         IconButton(
           icon: Icon(CustomIcons.twitter),
-          onPressed: () => {},
+          onPressed: () => _launchURL('https://twitter.com/Alien_Spaces'),
         ),
         IconButton(
           icon: Icon(CustomIcons.linkedin),
-          onPressed: () => {},
+          onPressed: () => _launchURL('https://www.linkedin.com/in/alienspaces/'),
         )
       ],
     );

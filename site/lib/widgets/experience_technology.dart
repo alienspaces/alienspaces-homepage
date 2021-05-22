@@ -17,7 +17,8 @@ class ExperienceTechnologyWidget extends StatelessWidget {
     technologyList.forEach((technology) {
       widgetList.add(
         Container(
-          padding: EdgeInsets.all(5),
+          padding: EdgeInsets.only(left: 5, right: 5),
+          height: 40,
           decoration: BoxDecoration(
             color: Theme.of(context).colorScheme.secondary,
           ),
