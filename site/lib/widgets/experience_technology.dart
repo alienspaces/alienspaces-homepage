@@ -31,7 +31,7 @@ class ExperienceTechnologyWidget extends StatelessWidget {
                   height: 30,
                   margin: EdgeInsets.only(right: 5),
                   child: Image.asset(
-                    'images/${technology.imageName}',
+                    'assets/images/${technology.imageName}',
                     fit: BoxFit.contain,
                   ),
                 ),

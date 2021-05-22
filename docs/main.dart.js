@@ -54295,7 +54295,7 @@ return s},
 P:function(a,b){var s=null
 return M.c9(C.ax,T.a6Y(this.Pw(b,this.c),5,5),s,s,s,s,s,s)}}
 A.OO.prototype={
-$1:function(a){var s,r,q=null,p=this.c,o=K.aP(p),n="images/"+a.b
+$1:function(a){var s,r,q=null,p=this.c,o=K.aP(p),n="assets/images/"+a.b
 n=M.c9(q,new U.r_(M.alq(q,q,new L.pQ(n,q,q)),C.hm,q),q,q,30,new V.aK(0,0,5,0),q,30)
 s=a.a
 r=K.aP(p).ab.y
