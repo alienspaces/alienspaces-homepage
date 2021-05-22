@@ -22,7 +22,12 @@ class ExperienceWidget extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
-                child: Text(experience.position, style: Theme.of(context).textTheme.headline5),
+                child: Text(
+                  experience.position,
+                  style: Theme.of(context).textTheme.headline5!.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                ),
               ),
               // Years
               Container(
@@ -39,7 +44,9 @@ class ExperienceWidget extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 child: Text(
                   experience.project,
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.headline6!.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
                 ),
               ),
               // Project Description
