@@ -29,9 +29,10 @@ class CustomIcons {
   static const _kFontFam = 'CustomIcons';
   static const String? _kFontPkg = null;
 
-  static const IconData linkedin = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData twitter = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData twitter_square =
+      IconData(0xf081, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData linkedin = IconData(0xf08c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData github_square =
+      IconData(0xf092, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData gitlab = IconData(0xf296, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData mark_github =
-      IconData(0xf308, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }

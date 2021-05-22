@@ -26,6 +26,7 @@ class ExperienceTechnologyWidget extends StatelessWidget {
             onPressed: () => _launchURL(technology.url),
             child: Row(
               mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
                   width: 30,

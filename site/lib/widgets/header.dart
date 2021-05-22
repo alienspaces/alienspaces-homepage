@@ -13,25 +13,43 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      centerTitle: false,
+      titleSpacing: 5,
       title: Container(
-        child: Text(
-          'Alienspaces',
-          style: Theme.of(context).textTheme.headline4?.copyWith(
-                color: Theme.of(context).colorScheme.onSecondary,
+        child: Row(
+          children: [
+            Container(
+              width: 50,
+              height: 50,
+              margin: EdgeInsets.only(top: 5, right: 15),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(5),
+                child: Image.asset(
+                  'assets/images/alienspaces-small.png',
+                  fit: BoxFit.fill,
+                ),
               ),
+            ),
+            Text(
+              'Alienspaces',
+              style: Theme.of(context).textTheme.headline5?.copyWith(
+                    color: Theme.of(context).colorScheme.onSecondary,
+                  ),
+            ),
+          ],
         ),
       ),
       actions: <Widget>[
+        IconButton(
+          icon: Icon(CustomIcons.github_square),
+          onPressed: () => _launchURL('https://github.com/alienspaces'),
+        ),
         IconButton(
           icon: Icon(CustomIcons.gitlab),
           onPressed: () => _launchURL('https://gitlab.com/alienspaces'),
         ),
         IconButton(
-          icon: Icon(CustomIcons.mark_github),
-          onPressed: () => _launchURL('https://github.com/alienspaces'),
-        ),
-        IconButton(
-          icon: Icon(CustomIcons.twitter),
+          icon: Icon(CustomIcons.twitter_square),
           onPressed: () => _launchURL('https://twitter.com/Alien_Spaces'),
         ),
         IconButton(
