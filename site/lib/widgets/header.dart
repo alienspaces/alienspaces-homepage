@@ -39,21 +39,34 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
           ],
         ),
       ),
+      actionsIconTheme: IconThemeData(),
       actions: <Widget>[
         IconButton(
           icon: Icon(CustomIcons.github_square),
+          visualDensity: VisualDensity.compact,
+          iconSize: 24,
+          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
           onPressed: () => _launchURL('https://github.com/alienspaces'),
         ),
         IconButton(
           icon: Icon(CustomIcons.gitlab),
+          visualDensity: VisualDensity.compact,
+          iconSize: 24,
+          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
           onPressed: () => _launchURL('https://gitlab.com/alienspaces'),
         ),
         IconButton(
           icon: Icon(CustomIcons.twitter_square),
+          visualDensity: VisualDensity.compact,
+          iconSize: 24,
+          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
           onPressed: () => _launchURL('https://twitter.com/Alien_Spaces'),
         ),
         IconButton(
           icon: Icon(CustomIcons.linkedin),
+          visualDensity: VisualDensity.compact,
+          iconSize: 24,
+          padding: EdgeInsets.fromLTRB(0, 14, 0, 8),
           onPressed: () => _launchURL('https://www.linkedin.com/in/alienspaces/'),
         )
       ],
