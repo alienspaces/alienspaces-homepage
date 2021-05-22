@@ -34,8 +34,7 @@ List<Experience> getExperienceList() {
         'A customer purchase approval application for iOS and Android.',
       ],
       projectFeatures: [
-        'iOS',
-        'Android',
+        'iOS and Android',
         'MFA sign in',
         'Biometric sign in',
         'Purchase codes',
@@ -45,7 +44,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment CI pipelines.',
+        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
         'Developed a cross platform mobile application using Flutter.',
@@ -80,7 +79,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment CI pipelines.',
+        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
         'Developed a SPA using Quasar Framework',
