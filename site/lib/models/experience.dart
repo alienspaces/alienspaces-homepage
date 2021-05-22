@@ -110,14 +110,13 @@ List<Experience> getExperienceList() {
         'A merchant payment platform for processing authorised transactions submitted from a variety of internal and external clients.',
       ],
       projectFeatures: [
-        '',
+        'TODO',
       ],
       positionDescription: [
-        'As the delivery lead in a team practicing Agile project management, I was responsible for supporting a highly performing engineering team, running daily team stand ups and scheduled grooming, while working with product management on requirements and planning.',
-        'As an experienced engineer, I was responsible for the software architecture, design and implementation.',
+        'Responsibilities included that of the team delivery and technical lead, the software architecture, design, implementation, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
-        '',
+        'TODO',
       ],
       technology: [
         technologyQuasar,
@@ -138,14 +137,14 @@ List<Experience> getExperienceList() {
         'A multi seller marketplace for the disability sector.',
       ],
       projectFeatures: [
-        '',
+        'TODO',
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        'As a less experienced engineer in the chosen technology stack, I shared responsibility for the software design and implementation.',
+        'Responsibilities included implementing features for the marketplace software along with the software architecture, design, implementation, automated testing, build and deployment of the payment processing sub-system.',
       ],
       positionAccomplishments: [
-        '',
+        'TODO',
       ],
       technology: [
         technologyUbuntu,
@@ -165,14 +164,14 @@ List<Experience> getExperienceList() {
         'An enterprise application framework that provided a complete solution for engineering teams to build web and processing applications for the financial industry.',
       ],
       projectFeatures: [
-        '',
+        'TODO',
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        'As an experienced engineer, I was responsible for the software architecture, design and implementation.',
+        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
-        '',
+        'TODO',
       ],
       technology: [
         technologyRedhatLinux,
@@ -189,14 +188,14 @@ List<Experience> getExperienceList() {
         'An online client portal for a financial payments processing and billing system.',
       ],
       projectFeatures: [
-        '',
+        'TODO',
       ],
       position: 'Engineer II',
       positionDescription: [
         'As an experienced engineer, I was responsible for the software design and implementation.',
       ],
       positionAccomplishments: [
-        '',
+        'TODO',
       ],
       technology: [
         technologyRedhatLinux,
@@ -212,14 +211,14 @@ List<Experience> getExperienceList() {
         'A white labelled billing and and payment processing system.',
       ],
       projectFeatures: [
-        '',
+        'TODO',
       ],
       position: 'Engineer II',
       positionDescription: [
         'As an engineer, I shared responsibility for the software design and implementation.',
       ],
       positionAccomplishments: [
-        '',
+        'TODO',
       ],
       technology: [
         technologySCOLinux,
@@ -236,14 +235,14 @@ List<Experience> getExperienceList() {
         'The online music store provided artist and album search capabilties, categorised album listings, order and checkout capabilities.',
       ],
       projectFeatures: [
-        '',
+        'TODO',
       ],
       position: 'Engineer I',
       positionDescription: [
         'As an engineer, I shared responsibility for the software design and implementation.',
       ],
       positionAccomplishments: [
-        '',
+        'TODO',
       ],
       technology: [
         technologySCOLinux,
