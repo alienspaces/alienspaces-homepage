@@ -135,6 +135,12 @@ Technology technologyQuasar = Technology(
   url: 'https://quasar.dev/',
 );
 
+Technology technologyServiceCloud = Technology(
+  name: 'Salesforce Service Cloud',
+  imageName: 'servicecloud-small.png',
+  url: 'https://www.salesforce.com/products/service-cloud/overview/',
+);
+
 Technology technologySCOLinux = Technology(
   name: 'SCO Unix',
   imageName: 'sco-small.png',

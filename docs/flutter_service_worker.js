@@ -17,6 +17,7 @@ const RESOURCES = {
 "assets/assets/images/apache-web-server-small.png": "b1f3bddf971924657cca0e6bc4dafc0c",
 "assets/assets/images/proc-small.png": "76f3c203ae57e06797a4191c33815238",
 "assets/assets/images/postgres-small.png": "49e91ca6717e04be0587ff01b95ba3f5",
+"assets/assets/images/servieccloud-small.png": "58fda87782660bca93b53540e5013dea",
 "assets/assets/images/sco-small.png": "1c821a267b80935a36998263216798cb",
 "assets/assets/images/worldgroup-small.png": "b537c13c59516c28f466a913a95b5285",
 "assets/assets/images/ubuntu-small.png": "ce52bf2c6b92b41fd2700a20d98e8c6c",
@@ -44,14 +45,14 @@ const RESOURCES = {
 "assets/assets/fonts/Lato-Bold.ttf": "85d339d916479f729938d2911b85bf1f",
 "assets/assets/fonts/Lato-Italic.ttf": "7582e823ef0d702969ea0cce9afb326d",
 "assets/assets/fonts/Lato-Thin.ttf": "9a77fbaa85fa42b73e3b96399daf49c5",
-"assets/AssetManifest.json": "f3d45ec7ac5aa3dd72f0482099991bdb",
+"assets/AssetManifest.json": "b0ffe6825bceec225791a504e884cb38",
 "assets/NOTICES": "001074814df1b0eb41232531b76ec316",
 "assets/FontManifest.json": "f8ec27312bf02bf4ac4f918c39934293",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"main.dart.js": "bc479cd79861db72adc482f68945aacd",
+"main.dart.js": "e0d1838a2ffddc98b0d61e991897c208",
 "manifest.json": "ac0019beef8477cbf457a70d981f1622",
-"index.html": "e3022e1426347653703d19489d4106fd",
-"/": "e3022e1426347653703d19489d4106fd",
+"index.html": "cafc9ed4d02b93b99edd83362649dcca",
+"/": "cafc9ed4d02b93b99edd83362649dcca",
 "version.json": "cecb292e181a64573f5cf756104f1d7f"
 };
 

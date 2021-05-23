@@ -111,13 +111,24 @@ List<Experience> getExperienceList() {
         'A merchant payment platform for processing authorised transactions submitted from a variety of internal and external clients.',
       ],
       projectFeatures: [
-        'TODO',
+        'Transaction acquiring',
+        'Transaction processing',
+        'Fee calculation',
+        'Tax calculation',
+        'Merchant payment processing',
+        'Complete REST API for all system resources',
+        'Internal merchant administration user interfaces'
       ],
       positionDescription: [
         'Responsibilities included that of the team delivery and technical lead, the software architecture, design, development, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
-        'TODO',
+        'Implemented a layered architecture design for the back end REST API server and processing jobs',
+        'Developed the back end REST API server and various processing jobs',
+        'Implemented a layered architecture design for the front end merchant administration screens',
+        'Developed the merchant administration user interfaces',
+        'Architected and developed data synchronisation between the platform and Service Cloud for support, sales and financial controls.',
+        'Developed test data management tooling to aid in the speed of creating and maintaining automated tests',
       ],
       technology: [
         technologyQuasar,
@@ -129,6 +140,7 @@ List<Experience> getExperienceList() {
         technologyDocker,
         technologyKubernetes,
         technologyAWS,
+        technologyServiceCloud,
         technologyGitlab,
       ],
     ),
