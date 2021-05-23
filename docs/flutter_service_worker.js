@@ -10,6 +10,7 @@ const RESOURCES = {
 "assets/assets/images/jenkins-small.png": "a6e9f84bd709e2e261036596c7104a70",
 "assets/assets/images/css-small.png": "1dcc1098246a6152ab9048b10a4df362",
 "assets/assets/images/redhat-small.png": "8585365713ef06f9dbb7717d9a09e2ee",
+"assets/assets/images/spree-small.png": "345128bc5777310f737239a5d8c75dbe",
 "assets/assets/images/quasar-small.png": "76b35492dcab33c3b8faf62edbda0a38",
 "assets/assets/images/gitlab-small.png": "a6062a1fd6fdc502b7d967a6cdff5c5a",
 "assets/assets/images/perl-small.png": "1921812a1b567b399c7b393cfc9e117c",
@@ -45,14 +46,14 @@ const RESOURCES = {
 "assets/assets/fonts/Lato-Bold.ttf": "85d339d916479f729938d2911b85bf1f",
 "assets/assets/fonts/Lato-Italic.ttf": "7582e823ef0d702969ea0cce9afb326d",
 "assets/assets/fonts/Lato-Thin.ttf": "9a77fbaa85fa42b73e3b96399daf49c5",
-"assets/AssetManifest.json": "b0ffe6825bceec225791a504e884cb38",
+"assets/AssetManifest.json": "2d91202d49b4dc3483b5ca8e26047606",
 "assets/NOTICES": "001074814df1b0eb41232531b76ec316",
 "assets/FontManifest.json": "f8ec27312bf02bf4ac4f918c39934293",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"main.dart.js": "5ad772a4f1f288627c678d9638576754",
+"main.dart.js": "de417c1bf6213cc1d38aa192c8b053af",
 "manifest.json": "ac0019beef8477cbf457a70d981f1622",
-"index.html": "765cf6c935800efa0a97f4124e15bdd1",
-"/": "765cf6c935800efa0a97f4124e15bdd1",
+"index.html": "7d0fd7a43f15ef01444b80e23c19f8a4",
+"/": "7d0fd7a43f15ef01444b80e23c19f8a4",
 "version.json": "cecb292e181a64573f5cf756104f1d7f"
 };
 

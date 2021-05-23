@@ -147,6 +147,12 @@ Technology technologySCOLinux = Technology(
   url: 'https://en.wikipedia.org/wiki/OpenServer#SCO_UNIX/SCO_Open_Desktop',
 );
 
+Technology technologySpreeCommerce = Technology(
+  name: 'Spree Commerce',
+  imageName: 'spree-small.png',
+  url: 'https://spreecommerce.org/features/',
+);
+
 Technology technologyUbuntu = Technology(
   name: 'Ubuntu',
   imageName: 'ubuntu-small.png',

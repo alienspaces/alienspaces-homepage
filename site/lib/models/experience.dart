@@ -152,18 +152,20 @@ List<Experience> getExperienceList() {
         'A multi seller marketplace for the disability sector.',
       ],
       projectFeatures: [
-        'TODO',
+        'Built on top of Spree Commerce',
+        'Extended to support multiple sellers',
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
         'Responsibilities included implementing features for the marketplace software along with the software architecture, design, development, automated testing, build and deployment of the payment processing sub-system.',
       ],
       positionAccomplishments: [
-        'TODO',
+        'Designed and built custom payment method integration',
       ],
       technology: [
         technologyUbuntu,
         technologyROR,
+        technologySpreeCommerce,
         technologyMySQL,
         technologyGo,
         technologyDocker,
