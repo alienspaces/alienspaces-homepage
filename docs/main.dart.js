@@ -54463,12 +54463,8 @@ X.it.prototype={}
 G.ol.prototype={
 gaj:function(a){return this.a}}
 Y.Ad.prototype={
-P:function(a,b){var s,r,q,p=null
-b.a3(t.w).toString
-s=t.D
-r=H.a([new Z.zM(p)],s)
-q=P.aI([null,0],t.st,t.S)
-return new M.tJ(new A.Ab(p),M.bd(p,T.DJ(C.d3,H.a([new B.AH(new G.XW(!0,!0,!0,r,q),p,C.m,!1,p,!0,C.kJ,!1,p,1,C.b5,C.xv,p,C.ac,p)],s),C.cT),p,p,p,new V.ao(5,5,0,5),p,p),p)}}
+P:function(a,b){var s=null,r=t.D,q=H.a([new Z.zM(s)],r),p=P.aI([null,0],t.st,t.S)
+return new M.tJ(new A.Ab(s),M.bd(s,T.DJ(C.d3,H.a([new B.AH(new G.XW(!0,!0,!0,q,p),s,C.m,!1,s,!0,C.kJ,!1,s,1,C.b5,C.xv,s,C.ac,s)],r),C.cT),s,s,s,new V.ao(5,5,0,5),s,s),s)}}
 Z.zM.prototype={
 QJ:function(a){var s,r,q=null,p="2020",o="Principal Engineer/Architect II",n="Responsibilities included the software architecture, design, development, automated testing, build and deployment.",m="Transaction acquiring",l="Transaction processing",k="Engineer III/Architect I",j="Engineer II",i="Engineer I",h="Development of new features and bug fixes.",g=H.a([],t.D)
 g.push(M.bd(C.a4,L.ej("Professional Experience",K.aE(a).a9.d.Xx(30),q,q),q,q,q,new V.ao(10,10,10,10),q,q))
