@@ -122,6 +122,7 @@ class ExperienceWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.fromLTRB(0, 0, 20, 0),
       child: Column(
         children: _buildContent(context),
       ),
