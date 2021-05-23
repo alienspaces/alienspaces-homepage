@@ -96,9 +96,9 @@ class ExperienceWidget extends StatelessWidget {
     widgetList.add(
       // Footer
       Container(
-        alignment: Alignment.centerLeft,
+        alignment: Alignment.center,
         padding: EdgeInsets.fromLTRB(10, 20, 10, 10),
-        child: Text('Built with Flutter - ALIENSPACES'),
+        child: Text('~ Built with Flutter by ALIENSPACES ~'),
       ),
     );
     return widgetList;
