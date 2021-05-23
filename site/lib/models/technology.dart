@@ -27,6 +27,12 @@ Technology technologyC = Technology(
   url: 'https://en.wikipedia.org/wiki/C_(programming_language)',
 );
 
+Technology technologyCSS = Technology(
+  name: 'CSS',
+  imageName: 'css-small.png',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+);
+
 Technology technologyFlutter = Technology(
   name: 'Flutter',
   imageName: 'flutter-small.png',
@@ -43,6 +49,12 @@ Technology technologyGo = Technology(
   name: 'Go',
   imageName: 'go-small.png',
   url: 'https://golang.org/',
+);
+
+Technology technologyJavascript = Technology(
+  name: 'Javascript',
+  imageName: 'javascript-small.png',
+  url: 'https://www.javascript.com/',
 );
 
 Technology technologyKubernetes = Technology(
