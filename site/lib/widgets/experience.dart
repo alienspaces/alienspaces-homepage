@@ -12,6 +12,20 @@ class ExperienceWidget extends StatelessWidget {
   // Build content
   List<Widget> _buildContent(BuildContext context) {
     List<Widget> widgetList = [];
+
+    // Page Header
+    widgetList.add(
+      Container(
+        alignment: Alignment.centerLeft,
+        margin: EdgeInsets.all(10),
+        child: Text(
+          'Professional Experience',
+          style: Theme.of(context).textTheme.headline4,
+        ),
+      ),
+    );
+
+    // Professional experience
     var experienceList = getExperienceList();
     experienceList.forEach((experience) {
       widgetList.add(
@@ -93,6 +107,7 @@ class ExperienceWidget extends StatelessWidget {
       );
     });
 
+    // Page Footer
     widgetList.add(
       // Footer
       Container(

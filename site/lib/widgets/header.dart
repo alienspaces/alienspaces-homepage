@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:site/models/social.dart';
+import 'package:site/models/personal.dart';
 
 class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
@@ -29,6 +30,8 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+    var personal = getPersonal();
+
     return AppBar(
       centerTitle: false,
       titleSpacing: 5,
@@ -52,13 +55,13 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Alien Spaces',
-                    style: Theme.of(context).textTheme.headline5?.copyWith(
+                    '${personal.pseudonym}',
+                    style: Theme.of(context).textTheme.headline6?.copyWith(
                           color: Theme.of(context).colorScheme.onSecondary,
                         ),
                   ),
                   Text(
-                    '(Ben)',
+                    '(${personal.name})',
                     style: Theme.of(context).textTheme.bodyText1!.copyWith(
                           color: Theme.of(context).colorScheme.onSecondary,
                         ),

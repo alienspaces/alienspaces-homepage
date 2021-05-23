@@ -159,9 +159,9 @@ List<Experience> getExperienceList() {
     Experience(
       projectYearStart: '2004',
       projectYearEnd: '2014',
-      project: 'Enterprise Framework',
+      project: 'Enterprise Application Framework',
       projectDescription: [
-        'An enterprise application framework that provided a complete solution for engineering teams to build web and processing applications for the financial industry.',
+        'An internal enterprise application framework that provided a complete solution for engineering teams to build web and processing applications for the financial industry.',
       ],
       projectFeatures: [
         'TODO',
@@ -197,7 +197,7 @@ List<Experience> getExperienceList() {
         'Responsibilities included the software design and development.',
       ],
       positionAccomplishments: [
-        'Developed a server rendered HTML and Javascript application using Perl CGI.'
+        'Developed the application as server rendered HTML pages using Perl CGI with client side enhancements using Javascript.'
       ],
       technology: [
         technologyRedhatLinux,
@@ -208,7 +208,7 @@ List<Experience> getExperienceList() {
     Experience(
       projectYearStart: '2000',
       projectYearEnd: '2002',
-      project: 'Billing and Payment Processing Platform',
+      project: 'Transaction, Billing and Payment Processing Platform',
       projectDescription: [
         'A white labelled billing and and payment processing platform.',
       ],
@@ -260,17 +260,19 @@ List<Experience> getExperienceList() {
       projectYearEnd: '1999',
       project: 'Online Music Store',
       projectDescription: [
-        'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services. The online music store provided artist and album search, categorised album listings, CD ordering and shopping cart checkout capabilities.',
+        'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services. The online music store provided artist and album search, categorised album listings and shopping cart checkout capabilities.',
       ],
       projectFeatures: [
-        'TODO',
+        'Album and artist search',
+        'Categorised album and artist listing',
+        'Shopping cart checkout',
       ],
       position: 'Engineer I',
       positionDescription: [
-        'As an engineer, I shared responsibility for the software design and development.',
+        'Development of new features and bug fixes.',
       ],
       positionAccomplishments: [
-        'TODO',
+        'Developed the categorised album and artist listing.',
       ],
       technology: [
         technologySCOLinux,
