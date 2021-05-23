@@ -25,7 +25,7 @@ class ExperienceWidget extends StatelessWidget {
                 child: Text(
                   experience.position,
                   style: Theme.of(context).textTheme.headline5!.copyWith(
-                        color: Theme.of(context).colorScheme.primary,
+                        color: Theme.of(context).colorScheme.onSurface,
                       ),
                 ),
               ),
@@ -45,7 +45,7 @@ class ExperienceWidget extends StatelessWidget {
                 child: Text(
                   experience.project,
                   style: Theme.of(context).textTheme.headline6!.copyWith(
-                        color: Theme.of(context).colorScheme.primary,
+                        color: Theme.of(context).colorScheme.secondary,
                       ),
                 ),
               ),
@@ -84,7 +84,7 @@ class ExperienceWidget extends StatelessWidget {
               // Technology
               Container(
                 alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
                 child: ExperienceTechnologyWidget(technology: experience.technology),
               ),
             ],
@@ -92,6 +92,15 @@ class ExperienceWidget extends StatelessWidget {
         ),
       );
     });
+
+    widgetList.add(
+      // Footer
+      Container(
+        alignment: Alignment.centerLeft,
+        padding: EdgeInsets.fromLTRB(10, 20, 10, 10),
+        child: Text('Built with Flutter - ALIENSPACES'),
+      ),
+    );
     return widgetList;
   }
 

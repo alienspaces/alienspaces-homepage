@@ -44,7 +44,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment.',
+        'Responsibilities included the software architecture, design, development, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
         'Developed a cross platform mobile application using Flutter.',
@@ -79,7 +79,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Principal Engineer/Architect II',
       positionDescription: [
-        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment.',
+        'Responsibilities included the software architecture, design, development, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
         'Developed a SPA using Quasar Framework',
@@ -102,7 +102,7 @@ List<Experience> getExperienceList() {
       ],
     ),
     Experience(
-      projectYearStart: '2013',
+      projectYearStart: '2015',
       projectYearEnd: '2020',
       position: 'Delivery Lead/Principal Engineer/Architect II',
       project: 'Merchant Payment Platform',
@@ -113,7 +113,7 @@ List<Experience> getExperienceList() {
         'TODO',
       ],
       positionDescription: [
-        'Responsibilities included that of the team delivery and technical lead, the software architecture, design, implementation, automated testing, build and deployment.',
+        'Responsibilities included that of the team delivery and technical lead, the software architecture, design, development, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
         'TODO',
@@ -130,8 +130,8 @@ List<Experience> getExperienceList() {
       ],
     ),
     Experience(
-      projectYearStart: '2012',
-      projectYearEnd: '2013',
+      projectYearStart: '2014',
+      projectYearEnd: '2015',
       project: 'Online Marketplace',
       projectDescription: [
         'A multi seller marketplace for the disability sector.',
@@ -141,7 +141,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        'Responsibilities included implementing features for the marketplace software along with the software architecture, design, implementation, automated testing, build and deployment of the payment processing sub-system.',
+        'Responsibilities included implementing features for the marketplace software along with the software architecture, design, development, automated testing, build and deployment of the payment processing sub-system.',
       ],
       positionAccomplishments: [
         'TODO',
@@ -158,7 +158,7 @@ List<Experience> getExperienceList() {
     ),
     Experience(
       projectYearStart: '2004',
-      projectYearEnd: '2012',
+      projectYearEnd: '2014',
       project: 'Enterprise Framework',
       projectDescription: [
         'An enterprise application framework that provided a complete solution for engineering teams to build web and processing applications for the financial industry.',
@@ -168,7 +168,7 @@ List<Experience> getExperienceList() {
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
-        'Responsibilities included the software architecture, design, implementation, automated testing, build and deployment.',
+        'Responsibilities included the software architecture, design, development, automated testing, build and deployment.',
       ],
       positionAccomplishments: [
         'TODO',
@@ -181,21 +181,23 @@ List<Experience> getExperienceList() {
       ],
     ),
     Experience(
-      projectYearStart: '2000',
+      projectYearStart: '2002',
       projectYearEnd: '2004',
-      project: 'Online Client Portal',
+      project: 'Online Customer Portal',
       projectDescription: [
-        'An online client portal for a financial payments processing and billing system.',
+        'An online customer portal for a billing and payment processing platform.',
       ],
       projectFeatures: [
-        'TODO',
+        'User account management',
+        'Transaction search',
+        'Transaction list with details',
       ],
       position: 'Engineer II',
       positionDescription: [
-        'As an experienced engineer, I was responsible for the software design and implementation.',
+        'Responsibilities included the software design and development.',
       ],
       positionAccomplishments: [
-        'TODO',
+        'Developed a server rendered HTML and Javascript application using Perl CGI.'
       ],
       technology: [
         technologyRedhatLinux,
@@ -204,49 +206,75 @@ List<Experience> getExperienceList() {
       ],
     ),
     Experience(
-      projectYearStart: '1998',
-      projectYearEnd: '2000',
-      project: 'Billing and Payment Processing',
+      projectYearStart: '2000',
+      projectYearEnd: '2002',
+      project: 'Billing and Payment Processing Platform',
       projectDescription: [
-        'A white labelled billing and and payment processing system.',
+        'A white labelled billing and and payment processing platform.',
       ],
       projectFeatures: [
-        'TODO',
+        'Transaction issuing',
+        'Transaction acquiring',
+        'Transaction processing',
+        'Customer billing',
+        'Merchant payments',
       ],
       position: 'Engineer II',
       positionDescription: [
-        'As an engineer, I shared responsibility for the software design and implementation.',
+        'Development of new features and bug fixes',
       ],
       positionAccomplishments: [
-        'TODO',
+        'Developed the customer payment application process which allocated customer payments to unpaid transactions.',
       ],
       technology: [
         technologySCOLinux,
-        technologyOracle6,
+        technologyOracle8,
         technologyProC,
       ],
     ),
     Experience(
+      projectYearStart: '1999',
+      projectYearEnd: '2000',
+      project: 'MajorMUD',
+      projectDescription: [
+        '"MajorMUD - Realm of Legends" is the most popular and heroic text-based fantasy adventure game on the Web. With the promise of battling dragons and thieves and setting out on dangerous quests, the game has become an addiction for thousands of players on the WorldGroup and Major BBS platforms around the world.',
+      ],
+      projectFeatures: [
+        'Text based multi user dungeon',
+      ],
+      position: 'Engineer I',
+      positionDescription: [
+        'Development of new features and bug fixes.',
+      ],
+      positionAccomplishments: [
+        'Developed the gang house and gang house shop features for Module 8: A Call to Arms!',
+      ],
+      technology: [
+        technologyC,
+        technologyMajorBBS,
+        technologyMajorMUD,
+      ],
+    ),
+    Experience(
       projectYearStart: '1997',
-      projectYearEnd: '1998',
+      projectYearEnd: '1999',
       project: 'Online Music Store',
       projectDescription: [
-        'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services.',
-        'The online music store provided artist and album search capabilties, categorised album listings, order and checkout capabilities.',
+        'A full service record label providing a full range of recording, producing, mixing, editing, and publishing services. The online music store provided artist and album search, categorised album listings, CD ordering and shopping cart checkout capabilities.',
       ],
       projectFeatures: [
         'TODO',
       ],
       position: 'Engineer I',
       positionDescription: [
-        'As an engineer, I shared responsibility for the software design and implementation.',
+        'As an engineer, I shared responsibility for the software design and development.',
       ],
       positionAccomplishments: [
         'TODO',
       ],
       technology: [
         technologySCOLinux,
-        technologyOracle6,
+        technologyOracle8,
         technologyPerl,
       ],
     ),

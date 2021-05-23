@@ -9,7 +9,6 @@ class ExperienceProjectFeaturesWidget extends StatelessWidget {
 
   // Build features list
   List<Widget> _buildContent(BuildContext context, List<String> featuresList) {
-    String bullet = '\u2022';
     List<Widget> widgetList = [];
     featuresList.forEach((feature) {
       widgetList.add(

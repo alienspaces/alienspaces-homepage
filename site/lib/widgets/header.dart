@@ -47,11 +47,24 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
                 ),
               ),
             ),
-            Text(
-              'Alienspaces',
-              style: Theme.of(context).textTheme.headline5?.copyWith(
-                    color: Theme.of(context).colorScheme.onSecondary,
+            Container(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Alien Spaces',
+                    style: Theme.of(context).textTheme.headline5?.copyWith(
+                          color: Theme.of(context).colorScheme.onSecondary,
+                        ),
                   ),
+                  Text(
+                    '(Ben)',
+                    style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                          color: Theme.of(context).colorScheme.onSecondary,
+                        ),
+                  ),
+                ],
+              ),
             ),
           ],
         ),

@@ -20,7 +20,12 @@ class ExperienceTechnologyWidget extends StatelessWidget {
           padding: EdgeInsets.only(left: 5, right: 5),
           height: 40,
           decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.secondary,
+            color: Color(0xFF5C6784),
+            border: Border.all(
+              color: Color(0xFF5C6784),
+              width: 1,
+            ),
+            borderRadius: BorderRadius.all(Radius.circular(4)),
           ),
           child: TextButton(
             onPressed: () => _launchURL(technology.url),
@@ -42,7 +47,7 @@ class ExperienceTechnologyWidget extends StatelessWidget {
                   style: Theme.of(context)
                       .textTheme
                       .bodyText1
-                      ?.copyWith(color: Theme.of(context).colorScheme.onSecondary),
+                      ?.copyWith(color: Theme.of(context).colorScheme.onPrimary),
                 ),
               ],
             ),

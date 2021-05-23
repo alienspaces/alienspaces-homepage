@@ -21,6 +21,12 @@ Technology technologyDocker = Technology(
   url: 'https://www.docker.com/',
 );
 
+Technology technologyC = Technology(
+  name: 'C',
+  imageName: 'c-small.png',
+  url: 'https://en.wikipedia.org/wiki/C_(programming_language)',
+);
+
 Technology technologyFlutter = Technology(
   name: 'Flutter',
   imageName: 'flutter-small.png',
@@ -45,10 +51,10 @@ Technology technologyKubernetes = Technology(
   url: 'https://kubernetes.io/',
 );
 
-Technology technologyMySQL = Technology(
-  name: 'MySQL',
-  imageName: 'mysql-small.png',
-  url: 'https://www.mysql.com/',
+Technology technologyMajorMUD = Technology(
+  name: 'MajorMUD',
+  imageName: 'majormud-small.png',
+  url: 'http://www.majormud.com/',
 );
 
 Technology technologyModPerl = Technology(
@@ -57,20 +63,20 @@ Technology technologyModPerl = Technology(
   url: 'http://perl.apache.org/',
 );
 
-Technology technologyOracle6 = Technology(
-  name: 'Oracle6',
-  imageName: 'oracle-small.png',
-  url: 'https://www.oracle.com/database/',
+Technology technologyMySQL = Technology(
+  name: 'MySQL',
+  imageName: 'mysql-small.png',
+  url: 'https://www.mysql.com/',
 );
 
 Technology technologyOracle8 = Technology(
-  name: 'Oracle8',
+  name: 'Oracle 8i',
   imageName: 'oracle-small.png',
   url: 'https://www.oracle.com/database/',
 );
 
 Technology technologyOracle10 = Technology(
-  name: 'Oracle10',
+  name: 'Oracle 10g',
   imageName: 'oracle-small.png',
   url: 'https://www.oracle.com/database/',
 );
@@ -127,4 +133,10 @@ Technology technologyVueJS = Technology(
   name: 'Vue.js',
   imageName: 'vuejs-small.png',
   url: 'https://vuejs.org/',
+);
+
+Technology technologyMajorBBS = Technology(
+  name: 'MajorBBS / Worldgroup Server',
+  imageName: 'worldgroup-small.png',
+  url: 'https://en.wikipedia.org/wiki/The_Major_BBS',
 );
