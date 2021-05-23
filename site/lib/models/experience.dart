@@ -174,7 +174,7 @@ List<Experience> getExperienceList() {
         'Standard user login, forgot password and account management screens',
         'Standard job execution and reporting screens for internal operations and financial teams',
         'Extendable web application component, report generation and job execution base classes for advanced control and customization',
-        'Configurable scheduling of jobs and reports',
+        'Configurable scheduling of reports generation and jobs execution',
         'Complete suite of developer screens for configuring screen and component user role access, scheduling report generation and job execution and management of text translations',
       ],
       position: 'Engineer III/Architect I',
