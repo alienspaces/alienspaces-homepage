@@ -6,7 +6,7 @@ import 'package:site/widgets/experience.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
+    // double height = MediaQuery.of(context).size.height;
 
     return Scaffold(
       appBar: HeaderWidget(),
