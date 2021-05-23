@@ -55,7 +55,7 @@ class ExperienceWidget extends StatelessWidget {
               // Project
               Container(
                 alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+                padding: EdgeInsets.fromLTRB(10, 0, 10, 5),
                 child: Text(
                   experience.project,
                   style: Theme.of(context).textTheme.headline6!.copyWith(
