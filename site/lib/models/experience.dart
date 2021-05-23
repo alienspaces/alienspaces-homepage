@@ -173,9 +173,9 @@ List<Experience> getExperienceList() {
         'Customise the web application theme for white labelled solutions',
         'Standard user login, forgot password and account management screens',
         'Standard job execution and reporting screens for internal operations and financial teams',
-        'Extendable component, report and job base classes for advanced control and customization',
+        'Extendable web application component, report generation and job execution base classes for advanced control and customization',
         'Configurable scheduling of jobs and reports',
-        'Complete suite of developer screens for configuring screen and component user role access, scheduling reports and jobs and managing text translations',
+        'Complete suite of developer screens for configuring screen and component user role access, scheduling report generation and job execution and management of text translations',
       ],
       position: 'Engineer III/Architect I',
       positionDescription: [
@@ -184,9 +184,9 @@ List<Experience> getExperienceList() {
       positionAccomplishments: [
         'Designed and developed the web application framework',
         'Designed and developed the web application XML configuration system',
-        'Built many of the extendable component classes',
-        'Rewrote the XML rendering system to implement a progressive enhancement approach to rich interactive user interfaces, speeding page renders by over 10 times',
-        'Built many of the component progressive enhancements',
+        'Built many of the extendable Perl web application component classes',
+        'Rewrote the server side Perl XML rendering system to implement a Javascript progressive enhancement approach to rich interactive user interfaces, speeding page renders by over 10 times',
+        'Built many of the component Javascript progressive enhancements',
         'Designed and developed the developer and user administration screens',
         'Designed and developed an automated upgrade system for consumers adopting new framework releases',
         'Trained internal engineering teams',
@@ -218,7 +218,7 @@ List<Experience> getExperienceList() {
         'Responsibilities included the software design and development.',
       ],
       positionAccomplishments: [
-        'Developed the application as server rendered HTML pages using Perl CGI with client side enhancements using Javascript.'
+        'Developed the application using Perl CGI for server rendered HTML pages with vanilla Javascript for client side enhancements.'
       ],
       technology: [
         technologyPerl,
