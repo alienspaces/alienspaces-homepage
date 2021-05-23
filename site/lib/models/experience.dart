@@ -195,12 +195,13 @@ List<Experience> getExperienceList() {
         'Trained internal engineering teams',
       ],
       technology: [
-        technologyRedhatLinux,
-        technologyOracle10,
         technologyPerl,
         technologyModPerl,
         technologyJavascript,
         technologyCSS,
+        technologyOracle10,
+        technologyApacheWebServer,
+        technologyRedhatLinux,
       ],
     ),
     Experience(
@@ -223,11 +224,12 @@ List<Experience> getExperienceList() {
         'Developed the application as server rendered HTML pages using Perl CGI with client side enhancements using Javascript.'
       ],
       technology: [
-        technologyRedhatLinux,
-        technologyOracle8,
         technologyPerl,
         technologyJavascript,
         technologyCSS,
+        technologyOracle8,
+        technologyApacheWebServer,
+        technologyRedhatLinux,
       ],
     ),
     Experience(

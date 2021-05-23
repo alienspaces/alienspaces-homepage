@@ -9,6 +9,12 @@ class Technology {
   });
 }
 
+Technology technologyApacheWebServer = Technology(
+  name: 'Apache Web Server',
+  imageName: 'apache-web-server-small.png',
+  url: 'http://httpd.apache.org/',
+);
+
 Technology technologyAWS = Technology(
   name: 'AWS',
   imageName: 'aws-small.png',
