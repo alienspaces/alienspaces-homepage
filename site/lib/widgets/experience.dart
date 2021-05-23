@@ -20,7 +20,7 @@ class ExperienceWidget extends StatelessWidget {
         margin: EdgeInsets.all(10),
         child: Text(
           'Professional Experience',
-          style: Theme.of(context).textTheme.headline4,
+          style: Theme.of(context).textTheme.headline4!.copyWith(fontSize: 34),
         ),
       ),
     );
