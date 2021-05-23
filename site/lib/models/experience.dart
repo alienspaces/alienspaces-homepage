@@ -48,11 +48,11 @@ List<Experience> getExperienceList() {
       ],
       positionAccomplishments: [
         'Developed a cross platform mobile application using Flutter.',
-        'Developed a backend REST API using Go.',
-        'Implemented mobile application and REST API server CI test pipelines using Gitlab CI.',
-        'Implemented mobile application and REST API server CI build and deployment pipelines using Gitlab CI.',
-        'Configured AWS managed Kubernetes Gitlab CI runner resources.',
-        'Configured AWS managed Kubernetes deployment resources.',
+        'Developed a supporting back end REST API using Go.',
+        'Developed a POS device emulator to support complete end to end testing.',
+        'Implemented mobile application and REST API server CI test, build and deployment pipelines using Gitlab CI.',
+        'Implemented the ability to deploy a web version of the application for QA and demo deployment for sales and product teams.',
+        'Configured AWS managed Kubernetes Gitlab CI runner, QA and demo deployment resources.',
       ],
       technology: [
         technologyFlutter,
