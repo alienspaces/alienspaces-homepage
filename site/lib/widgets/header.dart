@@ -38,7 +38,7 @@ class HeaderWidget extends StatelessWidget implements PreferredSizeWidget {
             Container(
               width: 50,
               height: 50,
-              margin: EdgeInsets.only(top: 5, right: 15),
+              margin: EdgeInsets.only(top: 5, right: 10),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(5),
                 child: Image.asset(

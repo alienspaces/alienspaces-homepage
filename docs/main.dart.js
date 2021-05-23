@@ -54576,7 +54576,7 @@ return P.a2($async$lQ,r)},
 Pq:function(a){var s=H.a([new X.it(C.nH,"https://github.com/alienspaces"),new X.it(C.nI,"https://gitlab.com/alienspaces"),new X.it(C.nF,"https://twitter.com/Alien_Spaces"),new X.it(C.nG,"https://www.linkedin.com/in/alienspaces/")],t.zb),r=H.a([],t.D)
 C.b.T(s,new A.Qq(this,r))
 return r},
-P:function(a,b){var s,r,q=null,p=M.bf(q,new T.yL(K.Mk(5),U.aaA("assets/images/alienspaces-small.png",C.hm),q),q,q,50,new V.ar(0,5,15,0),q,50),o=K.aJ(b).a9.e
+P:function(a,b){var s,r,q=null,p=M.bf(q,new T.yL(K.Mk(5),U.aaA("assets/images/alienspaces-small.png",C.hm),q),q,q,50,new V.ar(0,5,10,0),q,50),o=K.aJ(b).a9.e
 o=L.eF("Alien Spaces",o==null?q:o.eW(K.aJ(b).a8.y),q,q)
 s=K.aJ(b).a9.y
 s.toString
