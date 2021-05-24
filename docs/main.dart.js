@@ -54540,7 +54540,7 @@ r=M.bd(s,T.DL(C.d3,H.a([new B.AJ(new G.XZ(!0,!0,!0,q,p),s,C.m,!1,s,!0,C.kI,!1,s,
 q=L.QT(C.nE,C.j,s)
 return new M.tJ(new A.Ad(s),r,E.aar(K.aB(b).a5.a,q,!1,new Y.QC(this)),C.lQ,s)}}
 Y.QC.prototype={
-$0:function(){return this.a.lQ("mailto:alienspaces@gmail.com?subject=Hello Ben&body=Would you be interested in...%20plugin")},
+$0:function(){return this.a.lQ("mailto:alienspaces@gmail.com?subject=Hello Ben&body=Would you be interested in...")},
 $C:"$0",
 $R:0,
 $S:0}

@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _launchURL(
-          'mailto:alienspaces@gmail.com?subject=Hello Ben&body=Would you be interested in...%20plugin',
+          'mailto:alienspaces@gmail.com?subject=Hello Ben&body=Would you be interested in...',
         ),
         child: Icon(Icons.email, color: Colors.white),
         backgroundColor: Theme.of(context).colorScheme.primary,
