@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: HeaderWidget(),
       body: Container(
-        margin: EdgeInsets.fromLTRB(5, 5, 0, 5),
+        margin: EdgeInsets.fromLTRB(5, 5, 5, 5),
         child: Stack(
           children: [
             ListView(
@@ -28,9 +28,9 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _launchURL(
-          'mailto:alienspaces@gmail.com?subject=Hello Alien&body=Would you be interested in...',
+          'mailto:alienspaces@gmail.com?subject=Hello Ben&body=Would you be interested in...%20plugin',
         ),
-        child: Icon(Icons.email),
+        child: Icon(Icons.email, color: Colors.white),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,

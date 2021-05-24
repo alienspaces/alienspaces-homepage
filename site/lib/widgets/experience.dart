@@ -66,7 +66,7 @@ class ExperienceWidget extends StatelessWidget {
               // Project Description
               Container(
                 alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(10, 5, 50, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 child: ExperienceProjectDescriptionWidget(
                   description: experience.projectDescription,
                 ),
@@ -74,7 +74,7 @@ class ExperienceWidget extends StatelessWidget {
               // Project Features
               Container(
                 alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(10, 5, 50, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 child: ExperienceProjectFeaturesWidget(
                   features: experience.projectFeatures,
                 ),
@@ -82,7 +82,7 @@ class ExperienceWidget extends StatelessWidget {
               // Position Description
               Container(
                 alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(10, 5, 50, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 child: ExperiencePositionDescriptionWidget(
                   description: experience.positionDescription,
                 ),
@@ -90,7 +90,7 @@ class ExperienceWidget extends StatelessWidget {
               // Position Accomplishments
               Container(
                 alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(10, 5, 50, 5),
+                padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
                 child: ExperiencePositionAccomplishmentsWidget(
                   accomplishments: experience.positionAccomplishments,
                 ),
