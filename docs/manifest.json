@@ -1,11 +1,11 @@
 {
-    "name": "site",
-    "short_name": "site",
+    "name": "Alien Spaces",
+    "short_name": "Alien Spaces",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Alien Spaces - Software architecture, design and engineering.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

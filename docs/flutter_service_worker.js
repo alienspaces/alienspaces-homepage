@@ -51,9 +51,9 @@ const RESOURCES = {
 "assets/FontManifest.json": "f8ec27312bf02bf4ac4f918c39934293",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "main.dart.js": "73d3200d5a3eacddcf9682780676024e",
-"manifest.json": "ac0019beef8477cbf457a70d981f1622",
-"index.html": "adc905ac0ad377db6c0c48e9ff1a74f3",
-"/": "adc905ac0ad377db6c0c48e9ff1a74f3",
+"manifest.json": "6b85e65ecb889629c339c4045600c7ee",
+"index.html": "f0a9dd8cd941cb2e6223e67fb2b71eab",
+"/": "f0a9dd8cd941cb2e6223e67fb2b71eab",
 "version.json": "cecb292e181a64573f5cf756104f1d7f"
 };
 
