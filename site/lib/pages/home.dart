@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import 'package:site/widgets/header.dart';
+import 'package:site/widgets/email.dart';
 import 'package:site/widgets/experience.dart';
 
 class HomePage extends StatelessWidget {
-  void _launchURL(String url) async =>
-      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
-
   @override
   Widget build(BuildContext context) {
     // double height = MediaQuery.of(context).size.height;
@@ -23,17 +20,12 @@ class HomePage extends StatelessWidget {
                 ExperienceWidget(),
               ],
             ),
+            EmailWidget(),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _launchURL(
-          'mailto:alienspaces@gmail.com?subject=Hello Ben&body=Would you be interested in...',
-        ),
-        child: Icon(Icons.email, color: Colors.white),
-        backgroundColor: Theme.of(context).colorScheme.primary,
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
+      // floatingActionButton: EmailWidget(),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }
