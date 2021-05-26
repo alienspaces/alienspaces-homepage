@@ -11,8 +11,8 @@ class _EmailWidgetState extends State<EmailWidget> {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      bottom: 10,
-      right: 10,
+      bottom: 5,
+      right: 5,
       child: Container(
         decoration: BoxDecoration(
           color: Theme.of(context).colorScheme.primary,
@@ -47,10 +47,10 @@ class _EmailWidgetState extends State<EmailWidget> {
             GestureDetector(
               onTap: () {
                 setState(() {
-                  if (_emailFieldWidth == 300) {
+                  if (_emailFieldWidth == 290) {
                     _emailFieldWidth = 0;
                   } else {
-                    _emailFieldWidth = 300;
+                    _emailFieldWidth = 290;
                   }
                 });
               },
