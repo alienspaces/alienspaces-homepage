@@ -23,7 +23,7 @@ class _EmailWidgetState extends State<EmailWidget> {
           children: <Widget>[
             AnimatedContainer(
               color: Theme.of(context).colorScheme.primary,
-              height: 40,
+              height: 38,
               width: _emailFieldWidth,
               alignment: Alignment.center,
               child: Container(
