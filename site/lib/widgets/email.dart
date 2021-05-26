@@ -30,14 +30,14 @@ class _EmailWidgetState extends State<EmailWidget> {
                 alignment: Alignment.center,
                 height: 38,
                 margin: EdgeInsets.only(left: 20),
-                padding: EdgeInsets.only(bottom: 8, top: 6),
+                padding: EdgeInsets.only(bottom: 8, top: 8),
                 decoration: BoxDecoration(
                   color: Theme.of(context).colorScheme.surface,
                   borderRadius: BorderRadius.all(Radius.circular(5)),
                 ),
                 child: SelectableText(
                   'alienspaces@alienspaces.com',
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 18),
                   toolbarOptions: ToolbarOptions(copy: true),
                 ),
               ),
@@ -47,10 +47,10 @@ class _EmailWidgetState extends State<EmailWidget> {
             GestureDetector(
               onTap: () {
                 setState(() {
-                  if (_emailFieldWidth == 290) {
+                  if (_emailFieldWidth == 270) {
                     _emailFieldWidth = 0;
                   } else {
-                    _emailFieldWidth = 290;
+                    _emailFieldWidth = 270;
                   }
                 });
               },
